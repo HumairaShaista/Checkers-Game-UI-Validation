@@ -1,0 +1,23 @@
+{
+    "defaultState": {},
+    "validMoves": [
+      { "source": "img[name='space22']", "destination": "img[name='space33']" },
+      { "source": "img[name='space33']", "destination": "img[name='space24']" },
+      { "source": "img[name='space02']", "destination": "img[name='space24']" },
+      { "source": "img[name='space11']", "destination": "img[name='space22']" }, 
+      { "source": "img[name='space22']", "destination": "img[name='space13']" }
+    ],
+    "captureMove": {
+      "source": "img[name='space02']", 
+      "destination": "img[name='space24']"
+    },
+    "validMove": {
+       "source": "img[name='space22']", 
+       "destination": "img[name='space33']" 
+    },
+       
+    "invalidMove": {
+      "source": "img[name='space33']", 
+      "destination": "img[name='space22']"
+    }
+  }
